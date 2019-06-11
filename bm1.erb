@@ -18,6 +18,8 @@
          <%= e[:editor]%>
          <%= e[:pages]%>ページ
          <%= e[:day]%>
+        <a href="/bookinfo/edit?id=<%= e[:id]%>">編集</a>
+        <a href="/bookinfo/delete?id=<%= e[:id]%>">削除</a>
      </li>
      <% end %>
     </ul>

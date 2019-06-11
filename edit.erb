@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <meta charset="utf-8">
+        </head>
+    <form action="/bookinfo/update" method="post">
+    <p>タイトル:<input type="text" name = "title"><%=title%></p>
+    <p>著者名:<input type="text" name = "editor"><%=editor%></p>
+    <p>ページ数:<input type="text" name = "pages"><%=pages%></p>
+    <p>発行日:<input type="text" name = "day"><%=day%></p>
+    <input type="hidden" name="id" value="<%=id%>">
+    <input type="submit" value="更新">
+    </form>
+    <ul>
+    
+    </ul>
+    </body>
+
+</html>
